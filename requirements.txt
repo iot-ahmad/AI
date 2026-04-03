@@ -1,0 +1,27 @@
+# Web framework
+fastapi==0.111.0
+uvicorn[standard]==0.29.0
+
+# Scheduler
+APScheduler==3.10.4
+
+# AI / content — Google Gemini (مجاني، لا يحتاج فيزا)
+google-generativeai==0.5.4
+
+# Trend detection
+pytrends==4.9.2
+
+# TTS & video
+gTTS==2.5.1
+Pillow==10.3.0
+
+# Arabic text rendering (لعرض النصوص العربية بشكل صحيح في Pillow)
+arabic-reshaper==3.0.0
+python-bidi==0.6.3
+
+# Social publishing
+tweepy==4.14.0
+
+# Utilities
+python-dotenv==1.0.1
+requests==2.32.2
