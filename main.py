@@ -8,8 +8,7 @@ from fastapi.responses import JSONResponse
 from contextlib import asynccontextmanager
 import asyncio
 import logging
-from scheduler.cron_jobs import scheduler, run_full_pipeline
-
+from cron_jobs import scheduler, run_full_pipeline
 logging.basicConfig(level=logging.INFO, format="%(asctime)s %(levelname)s %(message)s")
 logger = logging.getLogger(__name__)
 
